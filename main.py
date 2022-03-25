@@ -52,7 +52,7 @@ stringTiempo = f'Time left: {timeleft}'
 timeLabel = tk.Label(text=stringTiempo)
 timeLabel.place(x=110,y=60)
 
-##Eventos
+##Eventos(Al apretar enter)
 root.bind('<Return>', start_game)
 
 ##Mantener en loop la ventana
